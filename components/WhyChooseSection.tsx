@@ -54,11 +54,8 @@ export function WhyChooseSection() {
                 }`}
               >
                 <div>
-                  <div className="flex items-center justify-between gap-2 pb-3 mb-3 border-b border-brand-wood/30">
-                    <Icon className="w-5 h-5 text-brand-red shrink-0" strokeWidth={1.75} />
-                    <span className="font-display text-[11px] font-semibold text-brand-wood">
-                      0{idx + 1}
-                    </span>
+                  <div className="pb-3 mb-3 border-b border-brand-wood/30">
+                    <Icon className="w-5 h-5 text-brand-red" strokeWidth={1.75} />
                   </div>
                   <h3 className="font-serif font-bold text-lg sm:text-xl text-brand-charcoal leading-snug mb-1.5">
                     {item.title}

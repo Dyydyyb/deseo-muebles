@@ -36,9 +36,6 @@ export function ClosingAndFooter() {
               transition={{ duration: 0.55 }}
               className="lg:col-span-7"
             >
-              <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-brand-wood mb-3">
-                {SITE_CONFIG.zone}
-              </p>
               <h2
                 className="font-serif font-bold text-white leading-tight mb-5"
                 style={{ fontSize: "clamp(2rem, 4vw, 3.25rem)" }}

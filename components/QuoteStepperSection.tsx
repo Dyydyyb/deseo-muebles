@@ -160,14 +160,11 @@ export function QuoteStepperSection({ selectedService }: QuoteStepperSectionProp
     <section id="cotizar" className="py-10 sm:py-16 lg:py-20 bg-brand-taupe">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mb-6 sm:mb-10">
-          <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-brand-red mb-2">
-            Armá tu consulta
-          </p>
           <h2
             className="font-serif font-bold text-brand-charcoal leading-tight"
             style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.75rem)" }}
           >
-            Cotizá tu proyecto en 4 pasos simples
+            Armá tu consulta en 4 pasos simples
           </h2>
         </div>
 
@@ -526,11 +523,8 @@ export function QuoteStepperSection({ selectedService }: QuoteStepperSectionProp
 
           {/* Right: Live Summary Sidebar (Desktop) */}
           <aside className="hidden lg:block lg:col-span-4 bg-brand-charcoal text-white rounded-2xl p-6 shadow-editorial sticky top-24">
-            <p className="font-display text-[11px] font-semibold uppercase tracking-[0.18em] text-brand-wood mb-2">
-              Resumen de tu consulta
-            </p>
             <h3 className="font-serif font-bold text-2xl text-white mb-5">
-              Deseo Muebles
+              Resumen de tu consulta
             </h3>
 
             <dl className="space-y-3 text-sm border-t border-white/10 pt-4">

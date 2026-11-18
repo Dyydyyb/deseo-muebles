@@ -32,9 +32,6 @@ export function ServicesSection({ onSelectService }: ServicesSectionProps) {
           transition={{ duration: 0.55 }}
           className="max-w-2xl mb-7 sm:mb-12"
         >
-          <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-brand-red mb-2">
-            Nuestros servicios
-          </p>
           <h2
             className="font-serif font-bold text-brand-charcoal leading-tight"
             style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.75rem)" }}

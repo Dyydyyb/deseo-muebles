@@ -74,7 +74,7 @@ export function Navbar() {
                 {SITE_CONFIG.brandName}
               </span>
               <span
-                className={`font-display text-[10px] tracking-[0.18em] uppercase mt-0.5 transition-colors ${
+                className={`font-display text-[11px] tracking-[0.16em] uppercase mt-0.5 transition-colors ${
                   scrolled ? "text-brand-warmGray" : "text-white/80"
                 }`}
               >

@@ -19,14 +19,11 @@ export function ProcessSection() {
     <section id="como-trabamos" className="py-10 sm:py-16 lg:py-20 bg-white border-y border-brand-taupe">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mb-8 sm:mb-14">
-          <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-brand-red mb-2">
-            Cómo trabajamos
-          </p>
           <h2
             className="font-serif font-bold text-brand-charcoal leading-tight"
             style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.75rem)" }}
           >
-            Del primer mensaje a tu mueble instalado
+            Cómo trabajamos: del primer mensaje a tu mueble instalado
           </h2>
         </div>
 
@@ -62,7 +59,7 @@ export function ProcessSection() {
                     <span className="w-12 h-12 rounded-full bg-brand-cream border-2 border-brand-red text-brand-red flex items-center justify-center shadow-sm shrink-0">
                       <Icon className="w-5 h-5" strokeWidth={1.75} />
                     </span>
-                    <span className="font-display text-xs font-bold uppercase tracking-[0.14em] text-brand-wood">
+                    <span className="font-display text-xs font-bold uppercase tracking-[0.14em] text-[#7C583A]">
                       Paso {item.step}
                     </span>
                   </div>

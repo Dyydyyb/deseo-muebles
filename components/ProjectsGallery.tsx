@@ -91,9 +91,6 @@ export function ProjectsGallery({ onSelectService }: ProjectsGalleryProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-7 sm:mb-10">
           <div>
-            <p className="font-display text-xs font-semibold uppercase tracking-[0.2em] text-brand-red mb-2">
-              Trabajos realizados
-            </p>
             <h2
               className="font-serif font-bold text-brand-charcoal leading-tight"
               style={{ fontSize: "clamp(1.75rem, 3.4vw, 2.75rem)" }}
