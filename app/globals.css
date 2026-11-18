@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cormorant: "Cormorant Garamond", Georgia, serif;
+  --font-montserrat: "Montserrat", system-ui, sans-serif;
+  --font-inter: "Inter", system-ui, sans-serif;
+  --font-caveat: "Caveat", cursive;
+  --brand-red: #A3191F;
+  --brand-red-hover: #86141A;
+  --brand-charcoal: #1E1E1E;
+  --brand-warm-gray: #3A3633;
+  --brand-taupe: #E9E1D8;
+  --brand-cream: #FAF7F3;
+  --brand-wood: #B08968;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--brand-red);
+  color: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--brand-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-wood);
+  border-radius: 9999px;
+  border: 2px solid var(--brand-cream);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-warm-gray);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-red);
+  outline-offset: 3px;
+}
+
+h1, h2, h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
